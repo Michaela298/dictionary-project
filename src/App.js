@@ -15,6 +15,7 @@ function App() {
             <a
               href="https://boring-heyrovsky-f3b4e2.netlify.app/"
               target="_blank"
+              rel="noreferrer"
             >
               Michaela Šimková
             </a>{" "}
@@ -22,6 +23,7 @@ function App() {
             <a
               href="https://github.com/Michaela298/dictionary-project"
               target="_blank"
+              rel="noreferrer"
             >
               open-sourced on Github
             </a>
