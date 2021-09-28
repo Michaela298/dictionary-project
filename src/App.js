@@ -5,12 +5,27 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">Hello</header>
+        <header className="App-header">Dictionary-US-English</header>
         <main>
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small>Coded by Michaela Šimková</small>
+          <small>
+            This project was coded by{" "}
+            <a
+              href="https://boring-heyrovsky-f3b4e2.netlify.app/"
+              target="_blank"
+            >
+              Michaela Šimková
+            </a>{" "}
+            and it is{" "}
+            <a
+              href="https://github.com/Michaela298/dictionary-project"
+              target="_blank"
+            >
+              open-sourced on Github
+            </a>
+          </small>
         </footer>
       </div>
     </div>
