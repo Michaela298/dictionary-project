@@ -1,10 +1,18 @@
+body {
+  background: coral;
+}
+
+a {
+  color: aquamarine;
+}
+
 .App {
   text-align: center;
   margin-top: 30px;
 }
 
 .App-header {
-  margin-bottom: 20px;
+  margin: 30px 0;
 }
 
 .App-footer {
