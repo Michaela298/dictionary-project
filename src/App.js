@@ -1,3 +1,4 @@
+import mickey from "./mickey.jpeg";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -5,7 +6,16 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">Dictionary-US-English</header>
+        <header className="App-header">
+          <div className="row">
+            <div className="col-6">
+              <img src={mickey} className="img-fluid App-mickey" alt="mickey" />
+            </div>
+            <div className="col-6">
+              <h2>Dictionary of American English🇺🇸</h2>
+            </div>
+          </div>
+        </header>
         <main>
           <Dictionary defaultKeyword="sunset" />
         </main>

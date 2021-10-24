@@ -1,9 +1,9 @@
 body {
-  background: coral;
+  background: white;
 }
 
 a {
-  color: aquamarine;
+  color: #e7e7e7;
 }
 
 .App {
@@ -20,4 +20,15 @@ a {
 .App-footer {
   text-align: center;
   margin: 30px 0;
+}
+
+.App-footer a {
+  text-decoration: none;
+  color: #0044fd;
+}
+
+.App-mickey {
+  max-width: 150px;
+  display: block;
+  margin: 0 auto;
 }
